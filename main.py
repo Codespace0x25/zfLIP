@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
         self.browser.urlChanged.connect(self.update_url)
 
     def navigate_home(self):
-        self.browser.setUrl(QUrl('http://www.google.com'))
+        self.browser.setUrl(QUrl('https://minecraftteet.github.io/zOogle/'))
 
     def navigate_to_url(self):
         url = self.url_bar.text()
